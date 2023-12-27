@@ -1,0 +1,51 @@
+<!-- res/layout/activity_main_menu.xml -->
+<!-- res/layout/activity_main_menu.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity">
+
+    <Button
+        android:id="@+id/buttonStartGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      TEST      "
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/buttonOpenNewPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOŞLUK DOLDURMA"
+        android:layout_below="@id/buttonStartGame"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="513dp"
+        app:srcCompat="@drawable/student" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/answer" />
+
+
+</RelativeLayout>
